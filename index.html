@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Immacolata Cafagna | Web Development Student</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="IC">IC</h1>
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="home-content">
+          <div class="txt-box">
+            <h5>MY PERSONAL PORTFOLIO</h5>
+            <h1>Immacolata Cafagna</h1>
+            <h2>Web Development Student</h2>
+            <p>
+              Aspiring front-end developer passionate about creating clean,
+              responsive, and user-friendly web interfaces.
+            </p>
+          </div>
+          <div class="img-box">
+            <img
+              src="assets/profile.png "
+              alt="Immacolata Cafagna"
+              class="prof-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h5>ABOUT ME</h5>
+        <h2>Get to know me</h2>
+        <p>
+          Hi, I'm Immacolata Cafagna, a 21-year-old web development student with
+          a passion for building intuitive and visually appealing websites. My
+          journey into tech began recently, but my fascination with design and
+          creativity has been lifelong.Before diving into coding, I worked as a
+          makeup artist, which taught me the importance of aesthetics, attention
+          to detail, and understanding what people want. These skills now shape
+          how I approach web design.I'm currently studying Computer Engineering
+          and AI, focusing on front-end development with HTML, CSS, and
+          JavaScript. I believe that technology and art can beautifully
+          intersect, and I'm excited to bring that vision to life through my
+          work.When I'm not coding, you'll find me exploring new design trends,
+          experimenting with colors and shapes, or enjoying the creative process
+          in any form it takes.
+        </p>
+      </section>
+      <section id="resume">
+        <h5>RESUME</h5>
+        <h2>My Background</h2>
+        <div class="resume-container">
+          <div class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <span>2025 – Present</span><br />
+                <strong>Computer Engineering and Artificial Intelligence</strong
+                ><br />
+                <p>
+                  Currently pursuing studies in computer engineering with a
+                  focus on artificial intelligence and web development.
+                </p>
+              </li>
+              <li>
+                <span>2018 – 2023</span><br />
+                <strong>Scientific High School Diploma</strong><br />
+                <span>Descartes High School (2018 – 2023)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Web Design</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h5>PROJECTS</h5>
+        <h2>My work</h2>
+        <div class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A responsive personal portfolio built with HTML, CSS, and JavaScript
+            to showcase my skills and projects.
+          </p>
+          <span>HTML · CSS · JavaScript</span>
+        </div>
+        <div class="project-card">
+          <h3>Make-Up Artist Website</h3>
+          <p>
+            A professional website designed to present make-up services,
+            portfolio, and contact information.
+          </p>
+          <span>HTML · CSS · JavaScript</span>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-container">
+          <div class="networks">
+            <h5>CONTACT</h5>
+            <h2>Get in touch</h2>
+            <p>
+              <strong> Email:</strong
+              ><a href="mailto:s00029924@epicode.edu.mt"
+                >s00029924@epicode.edu.mt</a
+              >
+            </p>
+            <p><strong>Phone:</strong> +39 320 652 9847</p>
+            <p><strong>Location:</strong> Italy</p>
+            <p>
+              <strong>SocialMedia:</strong
+              ><a
+                href="https://www.linkedin.com/in/imma-cafagna-9b08a9302/"
+                target="_blank"
+                aria-label="Visit my LinkedIn profile"
+                >LinkedIn</a
+              >,<a
+                href="https://github.com/immaaaaaaa"
+                target="_blank"
+                aria-label="Visit my GitHub profile"
+                >GitHub</a
+              >
+            </p>
+          </div>
+          <form class="contact-form">
+            <h2>Send Me a Message</h2>
+            <div
+              id="form-message"
+              role="alert"
+              style="margin-bottom: 10px"
+            ></div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-send">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>© 2026 Immacolata Cafagna. WebDeveloper Project.</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
