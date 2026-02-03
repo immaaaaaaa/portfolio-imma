@@ -6,11 +6,11 @@
   --border: #e5e7eb;
 }
 body.dark {
-  --bg: #0f172a;
+  --bg: black;
   --text: #f8fafc;
-  --muted: #cbd5e1;
-  --card: #1e293b;
-  --border: #334155;
+  --muted: #c7c8ca;
+  --card: #242424;
+  --border: #535353;
 }
 
 * {
